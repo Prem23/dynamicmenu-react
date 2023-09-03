@@ -1,0 +1,33 @@
+.dropdown {
+    cursor: pointer;
+    background: #2F302C;
+    position: absolute;
+    top: 5rem;
+    right: 37rem;
+}   
+
+.dropdown-menu {
+    margin: 0;
+    list-style: none;
+    background-color: transparent;
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown-menu button  {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown {
+        cursor: pointer;
+        background: #2F302C;
+        position: absolute;
+        top: 4rem;
+        right: 1rem;
+    }   
+}
